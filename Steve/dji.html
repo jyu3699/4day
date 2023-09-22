@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: calc(100% + 5px);
+      left: -10px;
+      display: none;
+      background: #000;
+    }
+
+    .dropdown-menu a {
+      display: block;
+      background: #000;
+      width:20px;
+      height:100px;
+    }
+
+    .logo:hover .dropdown-menu {
+      display: block;
+      background: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">
+      <span>Steve</span>
+      <div class="dropdown-menu">
+        <!-- 드롭다운 메뉴 항목들 -->
+        <a href="#">메뉴 항목 1</a>
+        <a href="#">메뉴 항목 2</a>
+        <a href="#">메뉴 항목 3</a>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
